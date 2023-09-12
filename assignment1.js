@@ -31,4 +31,21 @@ for (var i = numRows; i >= 1; i--) {
   console.log(row);
 }
 
+// 3. Find sum of N numbers
+// eg  1,2,3,4,5....N
+
+function findSumOfNumbers(n) {
+  let sum = 0;
+  for (let i = 1; i <= n; i++) {
+    sum += i;
+  }
+  return sum;
+}
+
+
+const N = 10;
+const result = findSumOfNumbers(N);
+console.log(`The sum of the first ${N} numbers is: ${result}`);
+
+
 
