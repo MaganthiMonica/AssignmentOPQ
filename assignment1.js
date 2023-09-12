@@ -96,6 +96,22 @@ for (let i = 0; i < fruits.length; i++) {
   console.log(fruits[i]);
 }
 
+// 6. how iterate over an object data? explain with an example
+
+const person = {
+  name: 'NICK',
+  age: 12,
+  city: 'DILHI'
+};
+
+for (let key in person) {
+  if (person.hasOwnProperty(key)) {
+    console.log(`${key}: ${person[key]}`);
+  }
+}
+
+
+
 
 
 
