@@ -14,3 +14,6 @@ for (var i = 1; i <= numRows; i++) {
   console.log(row);
 }
 
+
+// 2. Question
+
