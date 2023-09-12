@@ -88,6 +88,15 @@ for (var i = numRows - 1; i >= 1; i--) {
   console.log(row);
 }
 
+// 5.how to iterate over an array? explain with an example
+
+const fruits = ['apple', 'banana', 'cherry', 'date'];
+
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
+}
+
+
 
 
 
