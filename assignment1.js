@@ -111,8 +111,21 @@ for (let key in person) {
 }
 
 
+// 7. Implement string reversal. dont use builtin function
 
+function reverseString(input) {
+  let reversed = '';
+  for (let i = input.length - 1; i >= 0; i--) {
+    reversed += input[i];
+  }
+  return reversed;
+}
 
+const originalString = "Hello, World!";
+const reversedString = reverseString(originalString);
+
+console.log("Original string:", originalString);
+console.log("Reversed string:", reversedString);
 
 
 
